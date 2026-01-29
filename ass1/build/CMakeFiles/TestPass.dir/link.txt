@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -fno-rtti -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -dynamiclib -Wl,-headerpad_max_install_names -o libTestPass.dylib -install_name @rpath/libTestPass.dylib CMakeFiles/TestPass.dir/aPass1.cpp.o  -undefined dynamic_lookup
